@@ -1,84 +1,84 @@
-baseURL = "https://hoptercat.github.io"
+baseURL = "https://blog.vincexu.link"
 defaultContentLanguage = "zh-cn"
-languageCode = "zh-CN"
-hasCJKLanguage = true
-title = "Hopter 的博客"
-theme = "DoIt"
 enableEmoji = true
+hasCJKLanguage = true
+languageCode = "zh-CN"
+theme = "DoIt"
+title = "Hopter 的博客"
 
 [author]
-  name = "Vince Xu"
-  email = "xf.vince@gmail.com"
-  link = "https://github.com/hoptercat"
-  gravatarEmail = "xf.vince@gmail.com"
+email = "xf.vince@gmail.com"
+gravatarEmail = "xf.vince@gmail.com"
+link = "https://github.com/hoptercat"
+name = "Vince Xu"
 
 [params]
-  version = "0.2.X"
-  gitRepo = "https://github.com/hoptercat/hoptercat.github.io"
+gitRepo = "https://github.com/hoptercat/hoptercat.github.io"
+version = "0.2.X"
 
 [params.rss]
-  rss = 10
+rss = 10
 
 [params.home.profile]
-  enable = true
-  gravatarEmail = "xf.vince@gmail.com"
-  title = "Hopter 的博客"
-  typeit = false
-  social = true
+enable = true
+gravatarEmail = "xf.vince@gmail.com"
+social = true
+title = "Hopter 的博客"
+typeit = false
 
 [params.footer]
-  author = true
+author = true
 
 [taxonomies]
-  author = "authors"
-  category = "categories"
-  tag = "tags"
-  series = "series"
+author = "authors"
+category = "categories"
+series = "series"
+tag = "tags"
 
 [params.social]
-  GitHub = "hoptercat"
-  Email = "xf.vince@gmail.com"
+Email = "xf.vince@gmail.com"
+GitHub = "hoptercat"
 
 [params.page.outdatedArticleReminder]
-  enable = false
+enable = false
 
 [params.page.comment]
-  enable = true
-  [params.page.comment.utterances]
-    enable = true
-    repo = "hoptercat/hoptercat.github.io"
-    issueTerm = "pathname"
-    label = "comment"
-    lightTheme = "github-light"
-    darkTheme = "github-dark"
+enable = true
+[params.page.comment.utterances]
+darkTheme = "github-dark"
+enable = true
+issueTerm = "pathname"
+label = "comment"
+lightTheme = "github-light"
+repo = "hoptercat/hoptercat.github.io"
 
 [[menu.main]]
-  identifier = "posts"
-  name = "文章"
-  url = "/posts/"
-  weight = 1
+identifier = "posts"
+name = "文章"
+url = "/posts/"
+weight = 1
 [[menu.main]]
-  identifier = "tags"
-  name = "标签"
-  url = "/tags/"
-  weight = 2
+identifier = "tags"
+name = "标签"
+url = "/tags/"
+weight = 2
 [[menu.main]]
-  identifier = "rss"
-  name = "订阅"
-  url = "/index.xml"
-  weight = 4
+identifier = "rss"
+name = "订阅"
+url = "/index.xml"
+weight = 4
 [[menu.main]]
-  identifier = "authors"
-  name = "作者"
-  url = "/authors/"
-  weight = 5
+identifier = "authors"
+name = "作者"
+url = "/authors/"
+weight = 5
 [[menu.main]]
-  identifier = "github"
-  post = ""
-  name = "源码"
-  url = "https://github.com/hoptercat/hoptercat.github.io"
-  title = "GitHub"
-  weight = 9
+identifier = "github"
+name = "源码"
+post = ""
+title = "GitHub"
+url = "https://github.com/hoptercat/hoptercat.github.io"
+weight = 9
 [markup]
-  [markup.highlight]
-    noClasses = false
+[markup.highlight]
+noClasses = false
