@@ -30,4 +30,4 @@ jobs:
           github_token: ${{ secrets.GH_TOKEN }} 
           force_orphan: true
           publish_branch: gh-pages
-          cname: blog.vincexu.link
+          # cname: blog.vincexu.link
